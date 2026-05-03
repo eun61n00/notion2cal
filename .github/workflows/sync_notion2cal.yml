@@ -2,8 +2,8 @@ name: Sync Notion to Calendar
 
 on:
   schedule:
-    # Runs weekly on Monday at 06:00 UTC
-    - cron: "0 6 * * 1"
+    # Runs weekly on Every 06:00 UTC (00:00 KST)
+    - cron: "0 15 * * *"
   workflow_dispatch: # Allow manual trigger
 
 permissions:
